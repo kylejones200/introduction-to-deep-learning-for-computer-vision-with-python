@@ -8,7 +8,7 @@ canonical_link: "https://medium.com/@kyle-t-jones/introduction-to-deep-learning-
 # Introduction to Deep Learning for computer vision with Python Deep learning has achieved significant breakthroughs in a wide range of
 applications, including image and speech recognition, natural...
 
-### **Introduction to Deep Learning for computer vision with Python** 
+### Introduction to Deep Learning for computer vision with Python 
 
 #### Deep learning has achieved significant breakthroughs in a wide range of applications, including image and speech recognition, natural language processing, autonomous vehicles, and robotics. It has revolutionized the field of artificial intelligence and is one of the key driving forces behind recent advancements in machine learning and data science.
 Deep learning is a subfield of machine learning that uses artificial neural networks to learn and make predictions or decisions from data. These neural networks are composed of layers of interconnected nodes, called neurons, that process information and extract features from input data. By training these networks on large datasets, deep learning algorithms can automatically learn to recognize patterns and make accurate predictions or classifications on new data.
@@ -25,20 +25,20 @@ In this tutorial, we will explore the basics of deep learning in Python, includi
 
 Whether you're a beginner or an intermediate user, this tutorial will provide you with the foundational knowledge and practical skills needed to start building and training deep neural networks in Python.
 
-#### **How Artificial Neural Network is similar to Human Brain**
+#### How Artificial Neural Network is similar to Human Brain
 Artificial neural networks (ANNs) are designed to mimic the structure and function of the human brain, hence they are similar in many ways. Here are some similarities between artificial neural networks and human neural networks:
 
-- **Both have neurons:** ANNs consist of artificial neurons, which are the building blocks of the network. Similarly, the human brain consists of biological neurons.
-- **Both have synapses:** ANNs use synapses to connect neurons, and so does the human brain.
-- **Both learn from experience:** ANNs are trained on a dataset to learn patterns and make predictions, similarly, humans learn from experiences and use that knowledge to make decisions.
-- **Both can adapt:** ANNs can adapt to new inputs and learn from them, similarly, the human brain can adapt to new situations and learn from them.
-- **Both can generalize:** ANNs can generalize their knowledge to new inputs that they have not seen before, similarly, humans can generalize their knowledge to new situations.
+- Both have neurons: ANNs consist of artificial neurons, which are the building blocks of the network. Similarly, the human brain consists of biological neurons.
+- Both have synapses: ANNs use synapses to connect neurons, and so does the human brain.
+- Both learn from experience: ANNs are trained on a dataset to learn patterns and make predictions, similarly, humans learn from experiences and use that knowledge to make decisions.
+- Both can adapt: ANNs can adapt to new inputs and learn from them, similarly, the human brain can adapt to new situations and learn from them.
+- Both can generalize: ANNs can generalize their knowledge to new inputs that they have not seen before, similarly, humans can generalize their knowledge to new situations.
 
 However, it is important to note that the current artificial neural networks are far less complex and efficient than the human brain.
 
 For this tutorial, I assume that you are familiar with TensorFlow, PyTorch, Keras, and Caffe.
 
-#### **Difference between Deep Learning and Deep Neural Network**
+#### Difference between Deep Learning and Deep Neural Network
 Deep learning is a subfield of machine learning that involves training artificial neural networks to learn from data and make predictions or decisions based on that data. Deep learning models typically have many layers, allowing them to learn complex representations of the data.
 
 A deep neural network, on the other hand, is a type of neural network that has multiple hidden layers. These hidden layers allow the network to learn complex features of the input data and make more accurate predictions.
@@ -49,7 +49,7 @@ To find the right solution, it is important to identify the underlying problem a
 
 learning algorithm needs to be selected for the task at hand. The chosen algorithm should be used to train the dataset. Finally, the dataset should be tested to evaluate the performance of the model.
 
-#### **Real Life Examples**
+#### Real Life Examples
 How to recognize square from other shapes?
 
 1.  [Check the four lines.]
@@ -61,26 +61,26 @@ Deep Learning is a complex task of identifying the shape and broken down into si
 
 Recognizing an Animal! (Is it a Cat or Dog?) Defining facial features which are important for classification and system will then identify this automatically.
 
-#### **Limitations of Deep Learning**
+#### Limitations of Deep Learning
 Although deep learning has been shown to be extremely effective in solving many problems, it still has some limitations that should be considered. Here are a few:
 
-- **Data dependency:** Deep learning models require a lot of data to be trained effectively. Without sufficient data, the models may overfit, resulting in poor performance on new, unseen data.
-- **Computationally intensive:** Deep learning algorithms can be computationally expensive, requiring specialized hardware such as GPUs or TPUs to train and run effectively.
-- **Interpretability:** Deep learning models are often seen as "black boxes" that are difficult to interpret, making it hard to understand how the model arrived at a particular decision.
-- **Limited transferability:** Deep learning models that are trained for a specific task may not be easily transferable to other tasks, requiring new models to be developed for each new problem.
-- **Lack of common sense:** Deep learning models lack the common sense and reasoning abilities of humans, making them prone to making mistakes or coming to incorrect conclusions in situations where common sense is required.
+- Data dependency: Deep learning models require a lot of data to be trained effectively. Without sufficient data, the models may overfit, resulting in poor performance on new, unseen data.
+- Computationally intensive: Deep learning algorithms can be computationally expensive, requiring specialized hardware such as GPUs or TPUs to train and run effectively.
+- Interpretability: Deep learning models are often seen as "black boxes" that are difficult to interpret, making it hard to understand how the model arrived at a particular decision.
+- Limited transferability: Deep learning models that are trained for a specific task may not be easily transferable to other tasks, requiring new models to be developed for each new problem.
+- Lack of common sense: Deep learning models lack the common sense and reasoning abilities of humans, making them prone to making mistakes or coming to incorrect conclusions in situations where common sense is required.
 
-#### **Advantages of using Deep Learning**
-- **High accuracy:** Deep Learning algorithms can achieve high levels of accuracy in tasks such as image recognition, speech recognition, and natural language processing.
-- **Ability to learn features automatically:** Deep Learning algorithms can automatically learn useful features from raw data, which can be useful in situations where hand-engineered features are difficult to design.
-- **Scalability:** Deep Learning algorithms can be scaled to large datasets and complex problems by using powerful computing resources such as GPUs and distributed computing systems.
-- **Flexibility:** Deep Learning algorithms can be applied to a wide range of problems and can learn from a variety of data types such as images, text, and audio.
+#### Advantages of using Deep Learning
+- High accuracy: Deep Learning algorithms can achieve high levels of accuracy in tasks such as image recognition, speech recognition, and natural language processing.
+- Ability to learn features automatically: Deep Learning algorithms can automatically learn useful features from raw data, which can be useful in situations where hand-engineered features are difficult to design.
+- Scalability: Deep Learning algorithms can be scaled to large datasets and complex problems by using powerful computing resources such as GPUs and distributed computing systems.
+- Flexibility: Deep Learning algorithms can be applied to a wide range of problems and can learn from a variety of data types such as images, text, and audio.
 
-#### **Cons of using Deep Learning**
-- **Large amounts of data required:** Deep Learning algorithms require large amounts of labeled data to train, which can be difficult to obtain in some domains.
-- **Computationally intensive:** Training Deep Learning models can be computationally intensive and requires high-performance computing resources, such as GPUs or cloud computing services.
-- **Black-box models:** Deep Learning models can be difficult to interpret, making it challenging to understand why a particular decision was made.
-- **Overfitting:** Deep Learning models can be prone to overfitting the training data, leading to poor generalization performance on unseen data.
+#### Cons of using Deep Learning
+- Large amounts of data required: Deep Learning algorithms require large amounts of labeled data to train, which can be difficult to obtain in some domains.
+- Computationally intensive: Training Deep Learning models can be computationally intensive and requires high-performance computing resources, such as GPUs or cloud computing services.
+- Black-box models: Deep Learning models can be difficult to interpret, making it challenging to understand why a particular decision was made.
+- Overfitting: Deep Learning models can be prone to overfitting the training data, leading to poor generalization performance on unseen data.
 
 #### Using OpenCV for computer vision
 OpenCV provides a simple way to use pre-trained deep learning models with OpenCV in Python. OpenCV allows us to perform the following tasks with ease:
@@ -95,12 +95,12 @@ In this demonstration, I will explain the basic process of using a pre-trained d
 
 Deep Learning is a rapidly growing area of Machine Learning that is crucial to explore if you are working in computer vision or image processing. OpenCV 3.3 has made it possible to use pre trained deep learning networks from popular frameworks like GoogleLeNet, AlexNet, SqueezeNet, VGGNet, and ResNet. This means that you do not need to spend hours training the network as it is already pre-trained, and you can use the output to make decisions in your application. It is important to note that OpenCV is not a tool for training networks but is a great tool for using pre-trained networks within the OpenCV ecosystem. The Deep Learning module in OpenCV is compatible with various popular network architectures, and the release notes for this module are available on the OpenCV repository page.
 
-#### **OpenCV deep learning functions and frameworks**
+#### OpenCV deep learning functions and frameworks
 OpenCV 3.3 supports the Caffe, TensorFlow, and Torch/PyTorch frameworks.
 
-In OpenCV 3.3, we can load images from disk using the functions **cv2.dnn.blobFromImage** and **cv2.dnn.blobFromImages**. We can import pre-trained models from different frameworks via the "create" methods such as **cv2.dnn.createCaffeImporter**, **cv2.dnn.createTensorFlowImporter**, and **cv2.dnn.createTorchImporter**. However, it is simpler to use the "read" methods and load a serialized model directly from disk using **cv2.dnn.readNetFromCaffe, cv2.dnn.readNetFromTensorFlow, cv2.dnn.readNetFromTorch**, and **cv2.dnn.readhTorchBlob**. Once we have loaded a model, we can use the .forward method to propagate the image forward through the model and obtain the classification result.
+In OpenCV 3.3, we can load images from disk using the functions cv2.dnn.blobFromImage and cv2.dnn.blobFromImages. We can import pre-trained models from different frameworks via the "create" methods such as cv2.dnn.createCaffeImporter, cv2.dnn.createTensorFlowImporter, and cv2.dnn.createTorchImporter. However, it is simpler to use the "read" methods and load a serialized model directly from disk using cv2.dnn.readNetFromCaffe, cv2.dnn.readNetFromTensorFlow, cv2.dnn.readNetFromTorch, and cv2.dnn.readhTorchBlob. Once we have loaded a model, we can use the .forward method to propagate the image forward through the model and obtain the classification result.
 
-#### **Classifying images using deep learning and OpenCV**
+#### Classifying images using deep learning and OpenCV
 Let's build a Python script that can classify input images using OpenCV and the GoogLeNet model pre-trained on ImageNet, using the Caffe framework. The GoogLeNet architecture, also known as "Inception". OpenCV 3.3 also supports other architectures such as AlexNet, ResNet, and SqueezeNet. For now, we will focus on how to load a pre-trained Caffe model and use it to classify an image in OpenCV. Let's start by adding the necessary libraries or packages in our code:
 
 Important links to download the necessary files related to pre-trained models and keywords:
@@ -160,7 +160,7 @@ rows = open(args["labels"]).read().strip().split("\n")
 classes = [r[r.find(" ") + 1:].split(",")[0] for r in rows]
 ```
 
-Taking note of the comment in the block below, we use **cv2.dnn.blobFromImage** to perform mean subtraction to normalize the input image which results in a known blob shape.
+Taking note of the comment in the block below, we use cv2.dnn.blobFromImage to perform mean subtraction to normalize the input image which results in a known blob shape.
 
 ```python
 # our CNN requires fixed spatial dimensions for our input image(s)
@@ -288,7 +288,7 @@ Reference: [https://pyimagesearch.com/2017/08/21/deep-learning-with-opencv/](htt
 
 Now that you have completed this project, check out a more complicated version using image segmentation that I made.
 
-[**Image Segmentation for Computer Vision with Python and CV2**\ *Image Segmentation is the process of dividing an image into multiple regions or segments, each of which corresponds to...*medium.com](https://medium.com/@kylejones_47003/image-segmentation-for-computer-vision-with-python-and-cv2-a07a0f70b79d "https://medium.com/@kylejones_47003/image-segmentation-for-computer-vision-with-python-and-cv2-a07a0f70b79d")[](https://medium.com/@kylejones_47003/image-segmentation-for-computer-vision-with-python-and-cv2-a07a0f70b79d)
+[Image Segmentation for Computer Vision with Python and CV2 *Image Segmentation is the process of dividing an image into multiple regions or segments, each of which corresponds to...*medium.com](https://medium.com/@kylejones_47003/image-segmentation-for-computer-vision-with-python-and-cv2-a07a0f70b79d "https://medium.com/@kylejones_47003/image-segmentation-for-computer-vision-with-python-and-cv2-a07a0f70b79d")[](https://medium.com/@kylejones_47003/image-segmentation-for-computer-vision-with-python-and-cv2-a07a0f70b79d)
 ### Related Stories
 - [[Intro to Computer Vision with OpenCV in Python](https://medium.com/@kylejones_47003/intro-to-computer-vision-with-opencv-in-python-628eb9fca2db)]
 - [[Image Segmentation for Computer Vision with Python and CV2](https://medium.com/@kylejones_47003/image-segmentation-for-computer-vision-with-python-and-cv2-a07a0f70b79d)]
