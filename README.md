@@ -11,14 +11,7 @@ Python is one of the most popular programming languages used in deep learning, a
 
 In deep learning, we use artificial neural networks to learn from large datasets and make predictions on new data. These networks are inspired by the structure and function of the human brain, and they consist of interconnected layers of neurons that process information and learn to recognize patterns in the data.
 
-## About
 
-Place the code for this article in this repository.
-The original article export is saved as `article.md`.
-
-## Files
-
-Add your `.ipynb`, `.py`, `.yaml`, `.js`, `.ts`, or other project files here.
 
 ## Disclaimer
 
